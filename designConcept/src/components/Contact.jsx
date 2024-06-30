@@ -5,7 +5,9 @@ const Contact = () => {
     <div className=' grid grid-cols-2 gap-10'>
 
          <div>
-                <h2 className=' font-montserrat text-xl font-[600] tracking-tight text-[#dadada]'>CONTACT</h2>
+         <h2 className=' font-montserrat text-xl font-[600] tracking-tight
+                                bg-gradient-to-r from-[#cacaca] to-[#222]
+                                inline-block text-transparent bg-clip-text'>CONTACT</h2>
                 <h1 className=' font-montserrat text-5xl font-[700] mt-1 mb-6'>CONTACT US!</h1>
 
                 <form action="">

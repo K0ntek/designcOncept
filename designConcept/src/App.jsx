@@ -8,6 +8,7 @@ import About from './components/About'
 import SectionTwo from './components/SectionTwo'
 import SectionThree from './components/SectionThree'
 import Contact from './components/Contact'
+import Pricing from './components/Pricing'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <About/>
       <SectionTwo/>
       <SectionThree/>
+      <Pricing/>
       <Contact/>
     </div>
   )
