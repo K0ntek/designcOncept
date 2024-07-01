@@ -17,16 +17,16 @@ const Header = () => {
                     <button className=' border-[2px] border-[#ff9352] bg-transparent text-[#ff9352] py-2 px-5 font-montserrat font-[500] rounded-lg hover:tracking-wide hover:font-[600] transition-all duration-150'>SEE OUR PRICING</button>
                 </div>
 
-            <div className=' w-3/4 grid grid-cols-3 gap-5 mt-6'>
-                <div className=' bg-[#ff9352] px-4 py-3 rounded-3xl'>
+            <div className=' w-4/5 grid grid-cols-3 gap-5 mt-6'>
+                <div className=' bg-[rgb(240,240,240)] text-black px-4 py-3 rounded-3xl shadow-[0px_0px_10px_0px] shadow-black/30'>
                     {/* <h3>Lorem, ipsum dolor.</h3> */}
                     <p className=' font-montserrat font-[600]'>Lorem ipsum dolor sit amet.</p>
                 </div>
-                <div className=' bg-zinc-950 px-4 py-3 rounded-3xl text-white'>
+                <div className=' bg-zinc-950 px-4 py-3 rounded-3xl text-white shadow-[0px_0px_10px_0px] shadow-black/30'>
                     {/* <h3>Lorem, ipsum dolor.</h3> */}
                     <p className=' font-montserrat font-[600]'>Lorem ipsum dolor sit amet.</p>
                 </div>
-                <div className=' bg-[#ebebeb] px-4 py-3 rounded-3xl'>
+                <div className=' bg-[#ebebeb] px-4 py-3 rounded-3xl shadow-[0px_0px_10px_0px] shadow-black/30'>
                     {/* <h3>Lorem, ipsum dolor.</h3> */}
                     <p className=' font-montserrat font-[600]'>Lorem ipsum dolor sit amet.</p>
                 </div>

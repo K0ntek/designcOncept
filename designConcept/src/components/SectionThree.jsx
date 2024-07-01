@@ -2,7 +2,7 @@ import React from 'react'
 
 const SectionThree = () => {
   return (
-    <div className=' grid lg:grid-cols-2 gap-10 my-10'>
+    <div className=' grid lg:grid-cols-2 gap-10 my-10 z-20'>
 
          <div>
             <div className=' text-start relative top-[50%] translate-y-[-50%]'>

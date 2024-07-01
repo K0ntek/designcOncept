@@ -19,7 +19,7 @@ const SectionTwo = () => {
         </div>
 
         <div>
-            <div className=' text-start relative top-[50%] translate-y-[-50%]'>
+            <div className=' text-start z-20 relative top-[50%] translate-y-[-50%]'>
             <h2 className=' font-montserrat text-xl font-[600] tracking-tight
                                 bg-gradient-to-r from-[#cacaca] to-[#222]
                                 inline-block text-transparent bg-clip-text'>SUBHEADING TEXT</h2>

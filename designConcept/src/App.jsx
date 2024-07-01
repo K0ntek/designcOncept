@@ -9,12 +9,16 @@ import SectionTwo from './components/SectionTwo'
 import SectionThree from './components/SectionThree'
 import Contact from './components/Contact'
 import Pricing from './components/Pricing'
+import Footer from './components/Footer'
+import Lines from './components/Lines'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className=' max-w-[1400px] mx-auto px-10 mb-10'>
+   <div>
+    {/* <Lines/> */}
+     <div className=' max-w-[1400px] mx-auto px-6 mb-10'>
       <Navbar/>
       <Header/>
       <About/>
@@ -23,6 +27,8 @@ function App() {
       <Pricing/>
       <Contact/>
     </div>
+    <Footer/>
+   </div>
   )
 }
 

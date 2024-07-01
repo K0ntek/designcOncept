@@ -43,7 +43,7 @@ const Pricing = () => {
         <div className=' flex flex-wrap mx-auto justify-center'>
             {pricingOffer.map((offerElement, i)=>{
                 return(
-                    <div className='font-montserrat w-[300px] py-5 rounded-3xl m-2 space-y-4' style={{background: `${offerElement.background}`, color: `${offerElement.text}`}}>
+                    <div className='font-montserrat w-[300px] py-5 rounded-3xl m-2 space-y-4 hover:mt-[-20px] hover:mb-[30px] transition-all duration-150' style={{background: `${offerElement.background}`, color: `${offerElement.text}`}}>
                          <h2 className=' text-2xl font-[600] tracking-tight
                                 bg-gradient-to-r from-[#666666] to-[#afa7a7]
                                 inline-block text-transparent bg-clip-text'>{offerElement.offer}</h2>
