@@ -12,10 +12,6 @@ const Navbar = () => {
             link: 'about'
         },
         {
-            name: 'home',
-            link: 'home'
-        },
-        {
             name: 'pricing',
             link: 'pricing'
         },
