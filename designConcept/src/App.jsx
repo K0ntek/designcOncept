@@ -13,7 +13,6 @@ import Footer from './components/Footer'
 import Lines from './components/Lines'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
    <div>
@@ -22,8 +21,10 @@ function App() {
       <Navbar/>
       <Header/>
       <About/>
-      <SectionTwo/>
-      <SectionThree/>
+      <div className="offer">
+        <SectionTwo/>
+        <SectionThree/>
+      </div>
       <Pricing/>
       <Contact/>
     </div>

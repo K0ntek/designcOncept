@@ -7,14 +7,14 @@ const Pricing = () => {
             offer: 'free',
             price: '0',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 
-            background:'#171717',
+            background:'#000',
             text: '#fff'
         },
         {
             offer: 'basic',
             price: '10',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            background:'#333',
+            background:'#171717',
             text: '#fff'
         },
         {
@@ -34,7 +34,7 @@ const Pricing = () => {
     ]
 
   return (
-    <div className='w-full py-[70px] bg-zinc-950 rounded-[40px] my-10 text-center space-y-6'>
+    <div id='pricing' className='w-full py-[70px] bg-zinc-950 rounded-[40px] my-10 text-center space-y-6'>
         <h2 className=' font-montserrat text-3xl font-[500] tracking-tight
                                 bg-gradient-to-r from-[#929292] to-[#fff]
                                 inline-block text-transparent bg-clip-text'>OUR PRICING OFFER</h2>
@@ -43,9 +43,9 @@ const Pricing = () => {
         <div className=' flex flex-wrap mx-auto justify-center'>
             {pricingOffer.map((offerElement, i)=>{
                 return(
-                    <div className='font-montserrat w-[300px] py-5 rounded-3xl m-2 space-y-4 hover:mt-[-20px] hover:mb-[30px] transition-all duration-150' style={{background: `${offerElement.background}`, color: `${offerElement.text}`}}>
+                    <div className=' cursor-pointer font-montserrat w-[300px] py-5 rounded-3xl m-2 space-y-4 hover:mt-[-5px] hover:mb-[20px] transition-all duration-150' style={{background: `${offerElement.background}`, color: `${offerElement.text}`}}>
                          <h2 className=' text-2xl font-[600] tracking-tight
-                                bg-gradient-to-r from-[#666666] to-[#afa7a7]
+                                bg-gradient-to-r from-[#202020] to-[#636363]
                                 inline-block text-transparent bg-clip-text'>{offerElement.offer}</h2>
 
                         <div>
@@ -53,7 +53,7 @@ const Pricing = () => {
                         </div>
                         <p className=' font-[700] text-justify px-10'>{offerElement.description}</p>
 
-                        <button className=' bg-black text-white px-5 py-2 rounded-full font-[600] hover:tracking-widest transition-all duration-200'> BUY NOW</button>
+                        {/* <button className=' bg-black text-white px-5 py-2 rounded-full font-[600] hover:tracking-widest transition-all duration-200'> BUY NOW</button> */}
                     </div>
                 )
             })}
